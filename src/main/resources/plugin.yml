@@ -1,0 +1,44 @@
+name: CDevilsCommands
+version: '${project.version}'
+main: it.mauro.cdevilscommands.Main
+api-version: '1.19'
+commands:
+  gamemode:
+    description: Gamemode
+    aliases: [gm, mode, gamem]
+  fly:
+    description: Volo
+    aliases: [volo, flystaff]
+  broadcast:
+    description: Broadcast
+    aliases: [bd, bcast, annuncio]
+  invsee:
+    description: Invsee
+    aliases: [inventario]
+  vanish:
+    description: Vanish
+    aliases: [v]
+  heal:
+    description: Cura
+    aliases: [cura, curagiocatore]
+  tp:
+    description: Teleport
+    aliases: [teleport, telep, teletrasporto]
+  sas:
+    description: Sas
+    aliases: [stefanogay]
+  gms:
+    description: Gamemode survival.
+  gmc:
+    description: Gamemode creative.
+  gmsp:
+    description: Gamemode spectator.
+  healall:
+    description: Cura tutti.
+permissions:
+  devils.commands.gamemode:
+    default: op
+  devils.commands.fly:
+    default: op
+  devils.commands.broadcast:
+    default: op
